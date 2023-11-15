@@ -1,0 +1,2 @@
+export const DEFAULT_PORT = parseInt(process.env.APPIUM_TEST_SERVER_PORT, 10) || <your_appium_server_port>;
+export const DEFAULT_HOST = process.env.APPIUM_TEST_SERVER_HOST || '<your_appium_server_addr>';
